@@ -140,7 +140,9 @@ body {
   background-color: transparent;
   color: var(--secondary-color);
 }
-
+.img-responsive {
+  max-width: 100%;
+}
 
 /* CSS Resets end */
 
@@ -185,7 +187,7 @@ nav ul li {
 }
 
 .burger-menu {
-  color: var(--primary-color);
+  color: var(--white-color);
   font-size: 2rem;
   border: 0;
   background-color: transparent;
@@ -454,7 +456,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color: #008275;
     flex-direction: column;
     top: 86px;
     left: 10%;
@@ -483,8 +485,7 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    margin: 6.5rem 0;
   }
 
   .bio {
@@ -522,16 +523,27 @@ footer {
   .contact-form-container {
     max-width: 23.75rem;
   }
+  .animate__pulse {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    max-width: 50%;
   }
 
   .bio {
     width: 18.3rem;
+  }
+  .bio-title {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0 0 0;
+  }
+
+  p.bio-text {
+    font-size: 18px;
   }
 
   .project-container {
@@ -540,6 +552,13 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+  .more-about {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .more-about p {
+    text-align: center;
   }
 }
 
