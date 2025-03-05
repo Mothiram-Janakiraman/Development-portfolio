@@ -89,6 +89,7 @@
   --bg-color: #fcfcfc;
   --white-color: #fff;
   --primary-color: #363636;
+  --hover-color:#033b36;
   --secondary-color: #25476d;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -173,8 +174,8 @@ nav a {
 }
 nav a:hover {
   color: var(--white-color);
-  background-color: var(--secondary-color);;
-  padding: 14px 16px;
+  background-color: var(--hover-color);
+  padding: 14px;
 }
 
 nav ul {
