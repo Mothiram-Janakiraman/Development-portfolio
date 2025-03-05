@@ -175,7 +175,7 @@ nav a {
 nav a:hover {
   color: var(--white-color);
   background-color: var(--hover-color);
-  padding: 14px;
+  padding: 14px 16px;
 }
 
 nav ul {
