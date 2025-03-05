@@ -174,7 +174,7 @@ nav a {
 }
 nav a:hover {
   color: var(--white-color);
-  background-color: var(--hover-color);
+  background-color: #033b36;
   padding: 14px;
 }
 
