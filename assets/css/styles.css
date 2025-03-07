@@ -173,12 +173,12 @@ nav li:hover {
   cursor: pointer;
 }
 nav li:hover >,
-nav.dropdown li:hover {
+.dropdown li:hover {
   visibility: visible;
   opacity: 1;
   display: block;
 }
-nav.dropdown > li{
+.dropdown > li{
   visibility: hidden;
   opacity: 0;
   position: absolute;
