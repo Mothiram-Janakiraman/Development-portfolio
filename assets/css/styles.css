@@ -172,7 +172,7 @@ nav li:hover {
   background-color: var(--hover-color);
   cursor: pointer;
 }
-nav li:hover >,
+
 .dropdown > li:hover {
   visibility: visible;
   opacity: 1;
