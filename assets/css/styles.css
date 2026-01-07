@@ -473,18 +473,18 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: #008275;
+    background-color: #5c0c6e;
     flex-direction: column;
     top: 86px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
+    left: 0%;
+    width: 100%;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
   }
 
   nav ul li {
     margin: 8px;
+    border-bottom: 1px solid #ffffff;
   }
 
   .burger-menu {
