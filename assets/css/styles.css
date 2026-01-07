@@ -165,7 +165,7 @@ nav h1 {
 nav a {
   color: var(--white-color);
   transition: var(--transition);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 nav li:hover {
   color: var(--white-color);
