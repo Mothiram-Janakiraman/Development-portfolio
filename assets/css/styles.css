@@ -89,7 +89,7 @@
   --bg-color: #fcfcfc;
   --white-color: #fff;
   --primary-color: #363636;
-  --hover-color:#07786e;
+  --hover-color:#581467;
   --secondary-color: #25476d;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -152,7 +152,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.1rem 5rem;
-  background-color: #0ab9a7;
+  background-color: #990ab9;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
